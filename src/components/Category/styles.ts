@@ -16,14 +16,15 @@ export const styles = StyleSheet.create({
     height: 116,
     borderRadius: 8,
     alignItems: 'center',
-    paddingVertical: 20
+    paddingVertical: 19
 
   },
 
   title:{
     fontFamily: theme.fonts.title700,
     color: theme.colors.heading,
-    fontSize: 15
+    fontSize: 15,
+    marginTop: 15
   },
   check:{
     position: 'absolute',
